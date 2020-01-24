@@ -1,0 +1,54 @@
+<md-card style="width: 600px;">
+	<md-card-content>
+	
+		<div>
+			<md-input-container>
+				<lable>First Name</lable>
+				<input type="text" ng-model="form.firstName"></input>
+			</md-input-container>
+		</div>
+		
+		<div>
+			<md-input-container>
+				<lable>Last Name</lable>
+				<input type="text" ng-model="form.lastName"></input>
+			</md-input-container>
+		</div>
+		
+		<div>
+			<md-input-container>
+				<lable>Date Of Birth</lable>
+				<input type="text" ng-model="form.DOB"></input>
+			</md-input-container>
+		</div>
+		
+		<div>
+				<lable>Gender</lable>
+				<input type="radio" value="male" ng-model="form.gender">Male</input>
+				<input type="radio" vale="female" ng-model="form.gender">Female</input>
+		</div>
+		
+		<div>
+				<lable>City</lable>
+					<select ng-model="form.cities">
+						  <option value="">Please select</option>
+						  <option value="Hyderabad">Hyderabad</option>
+						  <option value="Mumbai">Mumbai</option>
+						  <option value="Kolkata">Kolkata</option>
+						  <option value="Chennai">Chennai</option>
+					</select>
+		</div>
+		
+		<div>
+				<lable>Nationality:</lable>
+				<input type="checkbox" value="indian">Indian</input>
+				<input type="checkbox" value="other">NRI</input>
+		</div>
+				
+		<div>
+			<button  ng-click="submitForm()" >Submit</button >
+			<button  ng-click="cancel()" >Cancel</button >
+			
+		</div>
+	</md-card-content>
+</md-card>

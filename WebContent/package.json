@@ -1,0 +1,22 @@
+{
+  "name": "pc",
+  "private": true,
+  "main": "index.html",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies": {
+    "angular": "^1.7.9",
+    "angular-animate": "^1.7.9",
+    "angular-aria": "^1.7.9",
+    "angular-material": "^1.1.12",
+    "angular-messages": "^1.7.9",
+    "angular-route": "^1.7.9"
+  }
+}
